@@ -1,0 +1,113 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+
+}
+
+.card {
+
+  width: 40%;
+  margin: 7% auto;
+  box-shadow: 0px 12px 3em -12px hsl(218deg 22% 67%);
+  border-radius: 10px;
+}
+
+.top-card {
+
+  background-color: #ffffff;
+  padding: 20px 0 30px 50px;
+  border-radius: 10px 10px 0 0;
+}
+
+.top-card  h1 {
+
+  color: hsl(179, 62%, 43%);
+}
+
+.top-card  h2 {
+
+  color: hsl(71, 73%, 54%);
+}
+
+.top-card  p {
+
+  color: hsl(218, 22%, 67%);
+}
+
+.low-card-container {
+
+  display: flex;
+}
+
+.low-card-container h3 {
+
+  color: #ffffff;
+  opacity: 90%;
+  font-weight: 700;
+}
+
+.left-card {
+
+  background-color: hsl(179, 62%, 43%);
+  width: 43%;
+  float: left;
+  border-radius: 0 0 0 10px;
+  padding: 5% 7% 6% 7%;
+}
+
+.left-card p {
+
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.left-card p span {
+
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 50%;
+}
+
+.left-card .price {
+
+  margin: 0;
+}
+
+.left-card .description-subscription {
+
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 90%;
+}
+
+.left-card input {
+
+  background-color: hsl(71, 73%, 54%);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 15px;
+}
+
+.right-card {
+
+  background-color: hsl(179, 62%, 43%);
+  opacity: 70%;
+  width: 43%;
+  float: right;
+  border-radius: 0 0 10px 0;
+  padding: 5% 7% 6% 7%;
+}
+
+.right-card p {
+
+  color: #ffffff;
+  opacity: 70%;
+}
